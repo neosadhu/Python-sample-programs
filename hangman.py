@@ -116,8 +116,8 @@ def main_game(word):
 
         create_blanks(word)
         print (create_blanks(word))
-        print (word, 'M.S ', missed_letter)
-
+        print ('M.S ', missed_letter)
+        print ('C.S.', correct_letter)
 
         if word==create_blanks(word):
             print ('You Win')
